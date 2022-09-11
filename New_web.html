@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="This is a demo," />
+    <meta name="author" content="YouMIng Zheng" />
+    <title>Family cloud</title>
+    <style>
+      #Videos {
+        display: none;
+      }
+      #Photos {
+        display: none;
+      }
+      .head_select {
+        text-align-last: right;
+        font-size: 30px;
+        color: black;
+        margin: 20px;
+        padding: 15px;
+      }
+      .line {
+        height: 1px;
+        width: 100%;
+        background-color: black;
+        margin: 10px;
+      }
+      .btn {
+        border: none;
+        background-color: inherit;
+        padding: 15px 95px;
+        cursor: pointer;
+        display: inline-block;
+      }
+      .btn:hover {
+        background: #99ccff;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: #18eaf1;
+        color: white;
+        width: 100%;
+        padding: 0.3%;
+      "
+    >
+      <p style="color: black; font-size: 42px">Family cloud</p>
+    </div>
+    <hr class="line" />
+    <button class="btn head_select" onclick="photofile()">Photos</button>
+    <button class="btn head_select" onclick="videofile()">Videos</button>
+    <button class="btn head_select">Time_machine</button>
+    <button class="btn head_select">Members_info</button>
+    <button class="btn head_select">Download</button>
+    <button class="btn head_select">Setting</button>
+    <button class="btn head_select">Support</button>
+    <hr class="line" />
+    <div id="Videos">Videos</div>
+    <div id="Photos">
+      <button>hello</button>
+    </div>
+    <script>
+      function videofile() {
+        var x = document.getElementById("Videos");
+        if (window.getComputedStyle(x).display === "none") {
+          x.style.display = "block";
+        }
+      }
+      function photofile() {
+        var y = document.getElementById("Photos");
+        if (window.getComputedStyle(y).display === "none") {
+          y.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>

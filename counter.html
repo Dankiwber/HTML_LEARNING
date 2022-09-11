@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="This is a demo," />
+    <meta name="author" content="YouMIng Zheng" />
+    <style>
+      h1 {
+        text-align: center;
+      }
+      table,
+      th,
+      td {
+        border-collapse: collapse;
+        border: 1px solid black;
+      }
+      th,
+      td {
+        padding: 0.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var demo = 0;
+      function counter() {
+        demo += 1;
+        document.getElementById("demo").innerHTML = demo;
+      }
+    </script>
+    <h1>Counter Button</h1>
+    <button type="button" onclick="counter()">click</button>
+    <p>Clicks: <a id="demo"></a></p>
+    <table>
+      <tr>
+        <th colspan="3">GPU Table</th>
+        00131915719
+      </tr>
+      <tr>
+        <th>Lithography</th>
+        <th>Year</th>
+        <th>Model</th>
+      </tr>
+
+      <tr>
+        <th>16nm</th>
+        <th>GTX 1070</th>
+        <th>2016</th>
+      </tr>
+
+      <tr>
+        <th>12nm</th>
+        <th>RTX 3070</th>
+        <th>2018</th>
+      </tr>
+      <tr>
+        <th>8nm</th>
+        <th>RTX 3080</th>
+        <th>2020</th>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <label for="Height">身高</label>
+    <input
+      id="Height"
+      type="number"
+      name="user_Height"
+      value="0"
+      min="0"
+      max="300"
+      step="0.01"
+      required
+    />
+    <br />
+    <br />
+    <form action="" method="get">
+      <label for="gender">Gender : </label>
+      <select name="gender" id="gender" required>
+        <option value=""></option>
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="other">other</option>
+      </select>
+      <br />
+      <br />
+      1900<input
+        type="range"
+        min="1900"
+        max="2022"
+        step="1"
+        name="Year"
+        value=""
+      />2022
+      <br />
+      <br />
+      <label for="city">City : </label>
+      <input list="city_list" type="text" name="city" id="city" />
+      <datalist id="city_list">
+        <option value="Edmonton_city">Edmonton</option>
+        <option value="Toronto_city">Toronto</option>
+        <option value="Vancouver_city">Vancouver</option>
+      </datalist>
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
