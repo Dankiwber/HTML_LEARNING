@@ -1,2 +1,2 @@
 # HTML_LEARNING
-This is only include my daily note and some test code
+All these files include only my daily notes and some test code
