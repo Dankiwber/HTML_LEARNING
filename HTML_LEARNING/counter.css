@@ -1,0 +1,15 @@
+/* random css code*/
+h1 {
+  text-align: center;
+  color: olivedrab;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 0.25rem;
+}
