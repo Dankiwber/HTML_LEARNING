@@ -3,6 +3,32 @@ h1 {
   text-align: center;
   color: olivedrab;
 }
+#Red_text {
+  color: darkgreen;
+}
+div.airbnb_link li,
+div.hotel_link li {
+  color: deeppink;
+  font-size: medium;
+}
+div.airbnb_link a,
+div.hotel_link a {
+  color: rgb(69, 123, 89);
+  font-size: large;
+}
+p.specia_text,
+h3.specia_text {
+  color: darkgreen;
+  font-size: large;
+}
+p::before {
+  content: ">>";
+  color: chocolate;
+}
+div.airbnb_link a:hover,
+div.hotel_link a:hover {
+  color: deeppink;
+}
 table,
 th,
 td {
