@@ -8,7 +8,9 @@ h1 {
 }
 div.airbnb_link li,
 div.hotel_link li {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: deeppink;
+  letter-spacing: 0.1rem;
   font-size: 1.3rem;
 }
 div.airbnb_link a,
