@@ -9,17 +9,20 @@ h1 {
 div.airbnb_link li,
 div.hotel_link li {
   color: deeppink;
-  font-size: medium;
+  font-size: 1.3rem;
 }
 div.airbnb_link a,
 div.hotel_link a {
   color: rgb(69, 123, 89);
-  font-size: large;
+  font-size: 1.4rem;
 }
 p.specia_text,
 h3.specia_text {
   color: darkgreen;
   font-size: large;
+  font-size: 1.5rem;
+  letter-spacing: -0.05rem;
+  font-family: "Times New Roman", Times, serif;
 }
 p::before {
   content: ">>";
