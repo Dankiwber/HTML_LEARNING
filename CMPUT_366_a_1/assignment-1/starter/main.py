@@ -45,7 +45,7 @@ def main():
         start = start_states[i]
         goal = goal_states[i]
     
-        cost, expanded_diskstra = dijkstra,dijkstra (start, goal, gridded_map) # Implement here the call to your Dijkstra's implementation for start, goal, and gridded_map
+        cost, expanded_diskstra = dijkstra (start, goal, gridded_map) # Implement here the call to your Dijkstra's implementation for start, goal, and gridded_map
 
         nodes_expanded_dijkstra.append(expanded_diskstra)
 
