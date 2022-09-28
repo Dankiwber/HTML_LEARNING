@@ -53,3 +53,4 @@ def Bi_bs (start, goal, gridded_map):
                     heapq.heappush(OPEN_backward, child)
                     CLOSED_backward[child.state_hash()]=cost
     return -1, u
+    Print("helloworld")
